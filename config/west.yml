@@ -4,9 +4,16 @@ manifest:
     remotes:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
+        #   Enable custom nice!view display
+        - name: mctechnology17
+          url-base: https://github.com/mctechnology17
     projects:
         - name: zmk
           remote: zmkfirmware
           import: app/west.yml
+          #   Enable custom nice!view display
+        - name: zmk-nice-oled
+          remote: mctechnology17
+          revision: main
     self:
         path: config
