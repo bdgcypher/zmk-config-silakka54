@@ -4,9 +4,8 @@ manifest:
     remotes:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
-        #   Enable custom nice!view display
-        - name: mctechnology17
-          url-base: https://github.com/mctechnology17
+        - name: m165437 #modded nice!view display
+          url-base: https://github.com/M165437
     projects:
         - name: zmk
           remote: zmkfirmware
